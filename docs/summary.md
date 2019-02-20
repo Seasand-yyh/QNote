@@ -17,4 +17,7 @@
 * GitBook
   * [gitbook笔记汇总](#docs/GitBook/00 gitbook笔记汇总)
   * [gitbook + github pages 搭建个人博客](#docs/GitBook/2019-02-17 gitbook + github pages 搭建个人博客)
+* 其它
+  * [Chrome浏览器处理本地Ajax跨域](#docs/Others/2019-02-20 Chrome浏览器处理本地Ajax跨域)
+
 
