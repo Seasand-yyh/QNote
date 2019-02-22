@@ -14,6 +14,8 @@
   * [JavaScript函数不存在重载](#docs/JavaScript/2019-02-19 JavaScript函数不存在重载)
   * [函数声明与函数表达式](#docs/JavaScript/2019-02-19 函数声明与函数表达式)
   * [变量作用域问题](#docs/JavaScript/2019-02-20 变量作用域问题)
+  * [创建对象](#docs/JavaScript/2019-02-21 创建对象)
+  * [基本类型与引用类型作为参数](#docs/JavaScript/2019-02-22 基本类型与引用类型作为参数)
 * Markdown
   * [Markdown常用语法](#docs/Markdown/2019-02-19 Markdown常用语法)
 * Git
