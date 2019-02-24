@@ -57,7 +57,7 @@ gitbook init
 编辑好内容后，构建
 
 ~~~
-gitbook build ./ ./dist
+gitbook build
 ~~~
 
 
@@ -75,7 +75,6 @@ gitbook serve
 在QNote目录下新建.gitignore文件，添加如下内容：
 
 ~~~
-_book
 node_modules
 ~~~
 
@@ -101,7 +100,7 @@ git subtree push --prefix=dist origin gh-pages
 
 
 
-访问https://{username}.github.io/QNote，即可。
+访问 https://{username}.github.io/QNote ， 即可。
 
 
 
