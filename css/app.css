@@ -141,6 +141,10 @@ body {
 	line-height: 1.3rem;
 }
 
+#content code {
+	font-family: Consolas,"Courier New",Courier,FreeMono,monospace;
+}
+
 #content p code,
 #content li>code,
 #content h2>code,
