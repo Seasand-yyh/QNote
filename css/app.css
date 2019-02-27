@@ -81,7 +81,6 @@ body {
 
 #side_bar {
 	width: 270px;
-	min-height: 100%;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -134,7 +133,7 @@ body {
 }
 
 #content {
-	min-height: 680px;
+	min-height: 560px;
 	margin-left: 270px;
 	padding: 10px 100px 150px 50px;
 	font-size: 0.8rem;
@@ -249,5 +248,8 @@ body {
 @media (min-width: 992px) {
 	#nav_category {
 		display: none;
+	}
+	#side_bar {
+		height: 680px;
 	}
 }
