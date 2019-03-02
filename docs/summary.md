@@ -154,10 +154,8 @@
   * [参考文档](#docs/Git/00 参考文档)
   * [笔记汇总](#docs/Git/01 笔记汇总)
   * [Windows下Git SSH创建Key步骤](#docs/Git/2019-02-19 Windows下Git SSH创建Key步骤)
-* GitBook
-  * [参考文档](#docs/GitBook/00 参考文档)
-  * [笔记汇总](#docs/GitBook/01 笔记汇总)
-  * [gitbook + github pages 搭建个人博客](#docs/GitBook/2019-02-17 gitbook + github pages 搭建个人博客)
+  * [GitBook使用教程](#docs/Git/2019-02-15 GitBook使用教程)
+  * [GitBook + Github pages 搭建个人博客](#docs/Git/2019-02-17 GitBook + Github pages 搭建个人博客)
 * FineReport
   * [参考文档](#docs/FineReport/00 参考文档)
   * [笔记汇总](#docs/FineReport/01 笔记汇总)

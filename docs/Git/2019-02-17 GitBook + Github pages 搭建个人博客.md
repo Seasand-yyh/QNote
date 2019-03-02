@@ -1,20 +1,20 @@
-# gitbook + github pages 搭建个人博客
+# GitBook + Github pages 搭建个人博客
 
 ---
 
-#### 在GitHub上创建仓库
+### 1、在GitHub上创建仓库
 
 ![1550370495835](images/1550370495835.png)
 
 
 
-#### 将仓库clone到本地
+### 2、将仓库clone到本地
 
 ![1550370766724](images/1550370766724.png)
 
 
 
-#### 使用gitbook创建项目
+### 3、使用gitbook创建项目
 
 在QNote目录下，添加book.json文件，文件内容如下：
 
@@ -43,9 +43,11 @@
 }
 ~~~
 
+
+
 初始化项目
 
-~~~l
+~~~
 gitbook install
 gitbook init
 ~~~
@@ -62,7 +64,7 @@ gitbook build
 
 
 
-也可以先在本地进行预览
+也可以先在本地进行预览，`http://localhost:4000/`
 
 ~~~
 gitbook serve
@@ -70,9 +72,9 @@ gitbook serve
 
 
 
-#### 同步到GitHub
+### 4、同步到GitHub
 
-在QNote目录下新建.gitignore文件，添加如下内容：
+在QNote目录下新建.gitignore文件，添加过滤内容：
 
 ~~~
 node_modules
@@ -80,27 +82,23 @@ node_modules
 
 
 
-
+推送到GitHub
 
 ~~~
 git push -u origin master
 ~~~
 
-![1550378126330](images/1550378126330.png)
 
 
-
-将dist文件夹推送到gh-pages分支
+将gitbook构建生成的`_book`文件夹内容推送到gh-pages分支
 
 ~~~
-git subtree push --prefix=dist origin gh-pages
+git subtree push --prefix=_book origin gh-pages
 ~~~
 
-![1550378189142](images/1550378189142.png)
 
 
-
-访问 https://{username}.github.io/QNote ， 即可。
+最后，访问 `https://{username}.github.io/QNote `， 即可。更多关于gitbook使用方法，参考[GitBook使用教程](#docs/Git/2019-02-15 GitBook使用教程)。
 
 
 
