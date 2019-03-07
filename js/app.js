@@ -73,13 +73,13 @@ var app = {
 	 */
 	highLightCurrentMenu: function(){
 		$(app.sidebar_id + ' ul a').bind('click', function(e){
-			$(app.sidebar_id + ' ul li').css({'background-color': 'transparent'});
-			$(this).parent('li').css({'background-color': '#ddd'});
+			$(app.sidebar_id + ' ul li').removeClass('highlight');
+			$(this).parent('li').addClass('highlight');
 			
-			if($(app.sidebar_id).css('position').indexOf('fixed') != -1){
+			/*if($(app.sidebar_id).css('position').indexOf('fixed') != -1){
 				$(app.sidebar_id + ' ul li a').css({'color': '#f5f5d5'});
 				$(this).css({'color': '#333'});
-			}
+			}*/
 		});
 	},
 
@@ -156,9 +156,9 @@ var app = {
 	 */
 	back2Top: function() {
 		$('#back_to_top').bind('click', function() {
-			$('html, body').animate({
+			$(app.content_id).animate({
 				scrollTop: 0
-			}, 200);
+			}, 500);
 		});
 	}
 
