@@ -247,14 +247,23 @@ body {
 	#nav_category {
 		box-sizing: border-box;
 		display: block;
-		float: right;
+		position: absolute;
+		top: 0;
+		left: 0;
 		height: 49px;
 		line-height: 49px;
-		padding: 0 15px;
-		margin-right: 20px;
-		font-size: 14px;
+		padding: 0 20px;
+		font-size: 30px;
 		color: #fff;
 		cursor: pointer;
+	}
+	#nav_title {
+		position: absolute;
+		left: 50%;
+		margin-left: -76px;
+		padding: 0;
+		font-size: 20px;
+		line-height: 52px;
 	}
 	
 	#side_bar {
@@ -269,22 +278,29 @@ body {
 		background-color: rgba(3, 3, 3, .75);
 		overflow-y: auto;
 	}
+	#side_bar ul li, #side_bar ol li {
+		padding-top: 8px;
+		padding-bottom: 7px;
+		font-size: 0.9rem;
+	}
+	#side_bar > ul > li > ul > li:first-child {
+		margin-top: 10px;
+	}
 	#side_bar a:visited, #side_bar a:link {
 		color: #f5f5d5;
 	}
-	#side_bar a:hover {
-		color: #7fffd4;
-	}
+
 	#content {
-		margin-left: 0;
-		padding: 10px 30px 150px 30px;
+		left: 0;
+		padding: 10px 20px 150px 20px;
 	}
+
 	#back_to_top {
 		bottom: 20px;
 		right: 10px;
 		width: 40px;
 		height: 40px;
-		line-height: 36px;
+		line-height: 40px;
 		background-color: rgba(0, 0, 0, .75);
 	}
 }

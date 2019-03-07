@@ -63,7 +63,8 @@ var app = {
 		//默认收起一级以下菜单.
 		$('ul', $(app.sidebar_id).children('ul').children('li')).hide();
 		$(app.sidebar_id + ' ul li').bind('click', function(e){
-			event.stopPropagation();
+			e = e || window.event;
+			e.stopPropagation();
 			$(this).children('ul').slideToggle();
 		});
 	},
@@ -75,11 +76,6 @@ var app = {
 		$(app.sidebar_id + ' ul a').bind('click', function(e){
 			$(app.sidebar_id + ' ul li').removeClass('highlight');
 			$(this).parent('li').addClass('highlight');
-			
-			/*if($(app.sidebar_id).css('position').indexOf('fixed') != -1){
-				$(app.sidebar_id + ' ul li a').css({'color': '#f5f5d5'});
-				$(this).css({'color': '#333'});
-			}*/
 		});
 	},
 
@@ -92,12 +88,21 @@ var app = {
 			var left = $(app.sidebar_id).offset().left;
 			if(left === -272) {
 				targetLeft = 0;
+				$(app.sidebar_id).addClass('isSlideOpen');
 			}else if(left === 0) {
 				targetLeft = -272;
+				$(app.sidebar_id).removeClass('isSlideOpen');
 			}
 			$(app.sidebar_id).animate({
 				left: targetLeft
 			}, 500);
+		});
+
+		//点击内容区域收起侧边栏.
+		$(app.content_id).bind('click', function() {
+			if($(app.sidebar_id).hasClass('isSlideOpen')) {
+				$('#nav_category').click();
+			}
 		});
 	},
 
