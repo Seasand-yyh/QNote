@@ -186,8 +186,12 @@ body {
 
 #content ul li,
 #content ol li {
-	text-indent: -5px; 
 	font-size: 0.8rem;
+}
+
+#content ul li p,
+#content ol li p {
+	display: inline-block;
 }
 
 #content a:link, #content a:visited {

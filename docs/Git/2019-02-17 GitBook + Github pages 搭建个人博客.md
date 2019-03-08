@@ -6,13 +6,13 @@
 
 ![1550370495835](images/1550370495835.png)
 
-
+<br/>
 
 ### 2、将仓库clone到本地
 
 ![1550370766724](images/1550370766724.png)
 
-
+<br/>
 
 ### 3、使用gitbook创建项目
 
@@ -47,7 +47,7 @@
 
 初始化项目
 
-~~~
+~~~plaintext
 gitbook install
 gitbook init
 ~~~
@@ -58,7 +58,7 @@ gitbook init
 
 编辑好内容后，构建
 
-~~~
+~~~plaintext
 gitbook build
 ~~~
 
@@ -66,17 +66,17 @@ gitbook build
 
 也可以先在本地进行预览，`http://localhost:4000/`
 
-~~~
+~~~plaintext
 gitbook serve
 ~~~
 
-
+<br/>
 
 ### 4、同步到GitHub
 
 在QNote目录下新建.gitignore文件，添加过滤内容：
 
-~~~
+~~~plaintext
 node_modules
 ~~~
 
@@ -84,7 +84,7 @@ node_modules
 
 推送到GitHub
 
-~~~
+~~~plaintext
 git push -u origin master
 ~~~
 
@@ -92,7 +92,7 @@ git push -u origin master
 
 将gitbook构建生成的`_book`文件夹内容推送到gh-pages分支
 
-~~~
+~~~plaintext
 git subtree push --prefix=_book origin gh-pages
 ~~~
 
@@ -101,6 +101,8 @@ git subtree push --prefix=_book origin gh-pages
 最后，访问 `https://{username}.github.io/QNote `， 即可。更多关于gitbook使用方法，参考[GitBook使用教程](#docs/Git/2019-02-15 GitBook使用教程)。
 
 
+
+<br/><br/><br/>
 
 ---
 
