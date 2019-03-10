@@ -119,6 +119,8 @@ var app = {
 		}
 		//加载文档数据.
 		app.getDocData(path);
+		//页面滚动回到顶部.
+		$('#back_to_top').click();
 	},
 
 	/**
