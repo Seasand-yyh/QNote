@@ -1,4 +1,4 @@
-* [QNote 学习笔记](#docs/index)
+* [首页](#docs/index)
 * 前端
   * [参考文档](#docs/FrontEnd/00 参考文档)
   * [笔记汇总](#docs/FrontEnd/01 笔记汇总)
