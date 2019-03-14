@@ -12,6 +12,7 @@
   * [HTML中使用js的几种形式](#docs/JavaScript/2019-02-14 HTML中使用js的几种形式)
   * [script标签属性async和defer](#docs/JavaScript/2019-02-14 script标签属性async和defer)
   * [文档流结束时使用document.write](#docs/JavaScript/2019-02-15 文档流结束时使用document.write)
+  * [数组常用方法](#docs/JavaScript/2019-02-21 数组常用方法)
   * [JSON](#docs/JavaScript/2019-02-25 JSON)
   * [浏览器中关于位置的属性总结](#docs/JavaScript/2019-03-03 浏览器中关于位置的属性总结)
   * [闭包](#docs/JavaScript/2019-03-07 闭包)
