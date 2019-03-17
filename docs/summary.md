@@ -19,6 +19,7 @@
 * ES6
   * [参考文档](#docs/ES6/00 参考文档)
   * [笔记汇总](#docs/ES6/01 笔记汇总)
+  * [ES6快速入门](#docs/ES6/2019-03-17 ES6快速入门)
 * Bootstrap
   * [参考文档](#docs/Bootstrap/00 参考文档)
   * [笔记汇总](#docs/Bootstrap/01 笔记汇总)
