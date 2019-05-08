@@ -30,7 +30,8 @@ body {
 	padding: 0;
 	height: 100%;
 	color: #333;
-	background-color: #f5f5d5;
+	/*background-color: #f5f5d5;*/
+	background-color: #e4ffc9;
 	font-family: Verdana, Arial;
 	font-size: 0.8rem;
 }
