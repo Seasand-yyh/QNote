@@ -6,6 +6,7 @@
 * [W3School](http://www.w3school.com.cn/)
 * [QT86 字体库](https://www.qt86.com/list.php)
 * [西里尔字符](https://unicode-table.com/cn/)
+* [HTML/CSS特殊字符表](https://blog.csdn.net/bluestarf/article/details/40652011)
 
 
 

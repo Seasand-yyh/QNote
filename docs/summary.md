@@ -53,6 +53,7 @@
   * [Node.js](#docs/NodeJS/index)
   * [Python](#docs/Python/index)
   * [PHP](#docs/PHP/index)
+  * [Groovy](#docs/Groovy/index)
   * [Markdown](#docs/Markdown/index)
 * 数据库
   * [数据库](#docs/Database/index)

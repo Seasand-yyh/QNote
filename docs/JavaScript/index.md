@@ -9,6 +9,7 @@
 * [JavaScript 语言入门教程 - 阮一峰 （离线版）](#docs/JavaScript/data/javascript-tutorial/index)
 * [JavaScript Standard Style](https://standardjs.com/)
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+* [禁止页面后退的js实现](https://www.cnblogs.com/ityouknow/p/5328996.html)
 
 
 
