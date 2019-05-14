@@ -313,4 +313,8 @@ service iptables restart
 **参考文档：**
 
 * [CentOS6.6安装二进制压缩包mysql5.6](http://blog.itpub.net/29485627/viewspace-2135947/)
+* [CentOS6.5上安装MySQL5.7压缩版](https://www.cnblogs.com/duwanjiang/p/8461168.html)
+* [CentOS6.4下MySQL的安装与配置](http://www.cnblogs.com/xiaoluo501395377/archive/2013/04/07/3003278.html)
+* [mysql用户名密码登录不上](https://www.cnblogs.com/zhaoxd07/p/5580543.html)
+* [mysql5.7修改root密码无法登陆原因](https://blog.csdn.net/xyajia/article/details/76746883)
 
