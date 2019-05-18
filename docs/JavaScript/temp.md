@@ -510,6 +510,279 @@ console.log(obj.x);
 
 ### 25、
 
+ASCII：使用一个字节的7位来表示；
+
+Unicode：使用两个字节来表示；
+
+GB2312：使用两个字节表示一个汉字；
+
+UTF-8：与ASCII重合的部分用一个字节，汉字使用3个字节。
+
+
+
+26、
+
+~~~javascript
+//浅拷贝
+var obj = {
+    name: 'zs',
+    age: 13,
+    b: false,
+    car: {name: 'zzss'},
+    copy: function() {
+        var tmp = {};
+        for(var key in this) {
+            tmp[key] = this[key];
+        }
+        return tmp;
+    }
+};
+
+var copyObj = obj.copy();
+~~~
+
+~~~javascript
+//深拷贝
+function copy() {
+    var tmp = {};
+    for(var key in this) {
+        if(typeof this[key] === 'object') {
+            tmp[key] = this[key].copy();
+        } else {
+            tmp[key] = this[key];
+        }
+    }
+    return tmp;
+}
+
+var car = {
+    name: 'zzss',
+    copy: copy
+};
+
+var obj = {
+    name: 'zs',
+    age: 13,
+    b: false,
+    car: car,
+    copy: copy
+};
+
+var copyObj = obj.copy();
+~~~
+
+
+
+27、
+
+window.onload：当页面，包括引入的js、css、图片加载完成时执行；
+
+JQuery.ready()：页面DOM结构加载完成时执行。
+
+
+
+28、
+
+~~~javascript
+function inherit(obj) {
+    if(Object.create) {
+        return Object.create(obj);
+    } else {
+        function P() {}
+        P.prototype = obj;
+        return new P();
+    }
+}
+~~~
+
+
+
+29、
+
+![1553608993016](images/1553608993016.png)
+
+
+
+![1553609929558](images/1553609929558.png)
+
+
+
+
+
+30、
+
+![1553690236197](images/1553690236197.png)
+
+
+
+![1553690477433](images/1553690477433.png)
+
+![1553690987743](images/1553690987743.png)
+
+![1553691401213](images/1553691401213.png)
+
+![1553691595757](images/1553691595757.png)
+
+
+
+31、
+
+![1553772645915](images/1553772645915.png)
+
+![1553773241281](images/1553773241281.png)
+
+
+
+32、
+
+~~~javascript
+var o = eval('{name: "zs", age: 12}'); //error
+var o = eval('{name: "zs"}'); //o='zs'
+// 大括号没有解析为对象，当做代码块了，应加上()
+var o = eval('({name: "zs", age: 12})');
+~~~
+
+
+
+33、
+
+![1553774700073](images/1553774700073.png)
+
+
+
+34、
+
+~~~javascript
+var num = 1;
+function num() {
+    console.log(num);
+}
+num(); //Uncaught TypeError: num is not a function
+
+//相当于
+var num;
+function num() { console.log(num);} //此时num指向function
+num = 1; //num重新赋值为1
+num();
+~~~
+
+
+
+35、
+
+~~~javascript
+if(! 'a' in window) {
+    var a = 123;
+}
+console.log(a); //undefined
+~~~
+
+
+
+36、
+
+~~~javascript
+var func = function foo() {};
+foo(); //error 只能在函数体内使用
+
+(function foo(){})
+foo(); //error 括号()会将函数声明变成表达式
+~~~
+
+
+
+37、
+
+~~~javascript
+var num = 123;
+function f1() {
+    console.log(num);
+}
+
+function f2() {
+    var num = 456;
+    f1();
+}
+
+f2(); //123;
+~~~
+
+
+
+38、
+
+~~~javascript
+var each = function(arr, callback) {
+    for(var i = 0; i < arr.length; i++) {
+        if(callback.call(arr[i], i, arr[i]) === false) {
+            break;
+        }
+    }
+};
+
+var arr = [1,2,3,5,4,3,6,7];
+each(arr, function(index, value) {
+    if(value === 3) {
+        return false; //定义跳出标志.
+    }
+});
+
+each(arr, function(index, value) {
+    console.log(this); //能使用this.
+});
+~~~
+
+
+
+39、
+
+做能力检测，如果在调用的时候才做，则每调用一次就检测一次，会影响性能（比如会去搜索原型链）；
+
+解决方法是在加载代码预解析时检测
+
+![1553963774650](images/1553963774650.png)
+
+![1553963899197](images/1553963899197.png)
+
+
+
+单单检测方法是否存在还不足够，还要检测该方法是否符合要求，比如，对于恶意修改
+
+`document.getElementsByClassName = 123;` 检测存在为真，但是并不符合要求。
+
+可以使用模拟的方式来检测（JQuery实现原理）
+
+![1553964747779](images/1553964747779.png)
+
+
+
+40、
+
+~~~javascript
+// <div id="id" class="c1 c2 c3"></div>
+var className = 'c';
+document.getElementById('id').className.indexOf(className) !== -1; //true, 但不符合
+
+(' '+document.getElementById('id').className+' ').indexOf(' '+className+' ') !== -1; //false
+
+className = 'c2';
+(' '+document.getElementById('id').className+' ').indexOf(' '+className+' ') !== -1; //true
+~~~
+
+
+
+41、
+
+
+
+
+
+
+
+
+
+
+
 
 
 
