@@ -14,6 +14,7 @@
   * [React](#docs/React/index)
   * [Vue](#docs/Vue/index)
   * [Webpack](#docs/Webpack/index)
+  * [Rollup](#docs/Rollup/index)
   * [Element](#docs/Element/index)
   * [Art-Template](#docs/Art-Template/index)
   * [Echarts](#docs/Echarts/index)
@@ -22,6 +23,7 @@
   * [zTree](#docs/zTree/index)
   * [ExtJS](#docs/ExtJS/index)
   * [YUI](#docs/YUI/index)
+  * [Modernizr](#docs/Modernizr/index)
   * [FontAwesome](#docs/FontAwesome/index)
 * 移动端
   * [移动端](#docs/Mobile/index)
@@ -53,6 +55,7 @@
   * [Node.js](#docs/NodeJS/index)
   * [Python](#docs/Python/index)
   * [PHP](#docs/PHP/index)
+  * [Laravel](#docs/Laravel/index)
   * [Groovy](#docs/Groovy/index)
   * [Markdown](#docs/Markdown/index)
 * 数据库
@@ -83,6 +86,7 @@
   * [Git](#docs/Git/index)
   * [Jenkins](#docs/Jenkins/index)
   * [Eclipse](#docs/Eclipse/index)
+  * [Idea](#docs/Idea/index)
   * [Sublime Text](#docs/Sublime Text/index)
   * [VS Code](#docs/VS Code/index)
   * [HBuilder](#docs/HBuilder/index)

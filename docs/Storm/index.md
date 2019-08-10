@@ -2,7 +2,7 @@
 
 ---
 
-* [Apache Storm 官网](http://storm.apache.org/)
+* [Storm 官网](http://storm.apache.org/)
 
 
 

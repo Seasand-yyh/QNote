@@ -2,8 +2,8 @@
 
 ---
 
-* [Bootstrap官网](http://getbootstrap.com/)
-* [Bootstrap官网（中文）](http://v3.bootcss.com/)
+* [Bootstrap 官网](http://getbootstrap.com/)
+* [Bootstrap 中文网](http://v3.bootcss.com/)
 
 
 

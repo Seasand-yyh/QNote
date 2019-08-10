@@ -2,7 +2,7 @@
 
 ---
 
-* [Echarts官网](http://echarts.baidu.com/)
+* [Echarts 官网](http://echarts.baidu.com/)
 
 
 

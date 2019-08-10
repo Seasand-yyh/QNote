@@ -2,7 +2,7 @@
 
 ---
 
-
+* [Hibernate 官网](http://hibernate.org/)
 
 
 

@@ -28,6 +28,7 @@
 * [JSON](#docs/JavaScript/2019-02-25 JSON)
 * [浏览器中关于位置的属性总结](#docs/JavaScript/2019-03-03 浏览器中关于位置的属性总结)
 * [闭包](#docs/JavaScript/2019-03-07 闭包)
+* [JavaScript模块化编程](#docs/JavaScript/2019-05-29 JavaScript模块化编程)
 
 
 

@@ -2,7 +2,7 @@
 
 ---
 
-* [CKEditor官网](https://ckeditor.com/)
+* [CKEditor 官网](https://ckeditor.com/)
 * [CKEditor 3 JavaScript API Documentation](https://docs-old.ckeditor.com/ckeditor_api/symbols/CKEDITOR.config.html)
 
 

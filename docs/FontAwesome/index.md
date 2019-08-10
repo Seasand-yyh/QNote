@@ -2,7 +2,7 @@
 
 ---
 
-* [FontAwesome官网](http://fontawesome.dashgame.com/)
+* [FontAwesome 官网](http://fontawesome.dashgame.com/)
 
 
 
