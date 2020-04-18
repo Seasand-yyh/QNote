@@ -93,7 +93,13 @@
 }, {
   "name": "算法",
   "childs": [
-    {"name": "算法", "url": "Algorithm"}
+    {"name": "算法", "url": "Algorithm"},
+    {"name": "正则表达式", "url": "RegExp"}
+  ]
+}, {
+  "name": "设计模式",
+  "childs": [
+    {"name": "设计模式", "url": "DesignPattern"}
   ]
 }, {
   "name": "网络",
@@ -116,6 +122,12 @@
     {"name": "FineReport", "url": "FineReport"},
     {"name": "ELK", "url": "ELK"},
     {"name": "Zabbix", "url": "Zabbix"}
+  ]
+}, {
+  "name": "面试资料",
+  "childs": [
+    {"name": "前端面试资料", "url": "InterviewFrontend"},
+    {"name": "Java面试资料", "url": "InterviewJava"}
   ]
 }, {
   "name": "其它",
