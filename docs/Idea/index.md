@@ -2,8 +2,8 @@
 
 ---
 
-* [Idea 官网](https://www.jetbrains.com/idea/)
-* [Idea 注册码](http://idea.lanyus.com/)
+* [IDEA 官网](https://www.jetbrains.com/idea/)
+* [IDEA 注册码](http://idea.lanyus.com/)
 
 
 
@@ -15,7 +15,7 @@
 
 ---
 
-
+* [IDEA设置主题](#docs/IDEA/2020-05-02 IDEA设置主题)
 
 
 
