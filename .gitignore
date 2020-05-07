@@ -1,20 +1,26 @@
-git # OS X
-Icon?
-._*
+.metadata
+.recommenders
+RemoteSystemsTempFiles
 
-# Windows
+.settings
+.classpath
+.project
+
+bin
+target
+classes
+
+.mvn
+.svn
+.iml
+.idea
+
+log
+logs
+node_modules
+dist
+build
+
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# Linux
-.directory
-*~
-
-# npm
-node_modules
-dist
-*.gz
-
-# webstorm
-.idea/
