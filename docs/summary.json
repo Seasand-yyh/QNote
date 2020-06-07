@@ -36,6 +36,7 @@
     {"name": "Spring", "url": "Spring"},
     {"name": "Hibernate", "url": "Hibernate"},
     {"name": "Mybatis", "url": "Mybatis"},
+    {"name": "WebService", "url": "WebService"},
     {"name": "Freemarker", "url": "Freemarker"},
     {"name": "Zookeeper", "url": "Zookeeper"},
     {"name": "Nacos", "url": "Nacos"},
