@@ -129,6 +129,15 @@
     {"name": "Zabbix", "url": "Zabbix"}
   ]
 }, {
+  "name": "平面设计",
+  "childs": [
+    {"name": "平面设计", "url": "PlatDesign"},
+    {"name": "Photoshop", "url": "Photoshop"},
+    {"name": "Dreamweaver", "url": "Dreamweaver"},
+    {"name": "Firework", "url": "Firework"},
+    {"name": "Flash", "url": "Flash"}
+  ]
+}, {
   "name": "面试资料",
   "childs": [
     {"name": "前端面试资料", "url": "InterviewFrontend"},
