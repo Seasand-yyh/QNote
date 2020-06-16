@@ -122,6 +122,7 @@
     {"name": "HBuilder", "url": "HBuilder"},
     {"name": "Atom", "url": "Atom"},
     {"name": "WebStorm", "url": "WebStorm"},
+    {"name": "Navicat", "url": "Navicat"},
     {"name": "PowerDesigner", "url": "PowerDesigner"},
     {"name": "FineReport", "url": "FineReport"},
     {"name": "ELK", "url": "ELK"},
